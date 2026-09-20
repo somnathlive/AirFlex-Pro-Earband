@@ -87,4 +87,3 @@ This project demonstrates practical knowledge of:
 * Interactive UI components
 * Front-end e-commerce interface development
 
-like this project, consider giving the repository a star on GitHub!
