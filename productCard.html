@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirFlex Pro Earband | Product Card</title>
+    <link rel="stylesheet" href="product_style.css">
+</head>
+<body>  
+<div class="page">
+    <div class="product-wrapper">
+
+        <!-- Product Gallery -->
+        <div class="gallery">
+            <div class="thumbnails">
+                <button class="thumb active">
+                    <img src="icons/product.jpg" alt="Product thumbnail">
+                </button>
+
+                <button class="thumb">
+                    <img src="icons/product.jpg" alt="Product thumbnail">
+                </button>
+
+                <button class="thumb">
+                    <img src="icons/product.jpg" alt="Product thumbnail">
+                </button>
+
+                <button class="thumb">
+                    <img src="icons/product.jpg" alt="Product thumbnail">
+                </button>
+            </div>
+
+            <!-- Main Image -->
+            <div class="main-image">
+                <span class="best-badge">BEST SELLER</span>
+                <span class="discount-badge">25% OFF</span>
+
+                <button class="image-action wishlist-btn" aria-label="Wishlist">
+                    <img src="icons/heart.svg" alt="Wishlist">
+                </button>
+
+                <button class="image-action info-btn" aria-label="Product information">
+                    <img src="icons/i-btn.svg" alt="Information">
+                </button>
+                <img
+                    src="icons/product.jpg"
+                    class="product-image"
+                    id="mainProductImage"
+                    alt="AirFlex Pro Earband"
+                >
+            </div>
+        </div>
+
+        <!-- Product Details -->
+        <div class="product-details">
+            <p class="category">PREMIUM EARBAND</p>
+            <h1>AirFlex Pro Earband</h1>
+            <div class="rating-row">
+                <div class="stars">
+                    ★★★★★
+                </div>
+                <span class="rating-number">4.9</span>
+                <span class="reviews">(128 Reviews)</span>
+            </div>
+
+            <!-- Price -->
+            <div class="price-section">
+                <span class="current-price">$74.99</span>
+                <span class="old-price">$99.99</span>
+                <span class="save-price">SAVE $25</span>
+            </div>
+
+            <p class="description">
+                Experience premium comfort and powerful performance
+                with the AirFlex Pro Earband. Designed for everyday
+                use with a lightweight and modern design.
+            </p>
+
+            <!-- Color -->
+            <div class="option-section">
+                <div class="option-heading">
+                    <span>Color</span>
+                    <strong id="selectedColor">Black</strong>
+                </div>
+                <div class="color-options">
+                    <button class="color black selected" data-color="Black" aria-label="Black"></button>
+                    <button class="color blue" data-color="Blue" aria-label="Blue"></button>
+                    <button class="color green" data-color="Green" aria-label="Green"></button>
+                    <button class="color red" data-color="Red" aria-label="Red"></button>
+                </div>
+            </div>
+
+            <!-- Size -->
+            <div class="option-section">
+                <div class="option-heading">
+                    <span>Size</span>
+                    <strong id="selectedSize">42</strong>
+                </div>
+
+                <div class="size-options">
+                    <button class="size">38</button>
+                    <button class="size">40</button>
+                    <button class="size selected">42</button>
+                    <button class="size">44</button>
+                    <button class="size">46</button>
+                </div>
+            </div>
+
+            <!-- Quantity and Cart -->
+            <div class="purchase-row">
+                <div class="quantity">
+                    <button class="qty-btn" id="minus">-</button>
+                    <span id="quantity">1</span>
+                    <button class="qty-btn" id="plus">+</button>
+                </div>
+
+                <button class="add-cart" id="addToCart">
+                    <span>🛒</span>
+                    ADD TO CART
+                </button>
+            </div>
+
+            <!-- Product Features -->
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">🚚</div>
+                    <div>
+                        <strong>Free Delivery</strong>
+                        <small>Orders over $50</small>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">↩</div>
+                    <div>
+                        <strong>30-Day Returns</strong>
+                        <small>Hassle-free returns</small>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">✓</div>
+                    <div>
+                        <strong>In Stock</strong>
+                        <small>Ready to ship</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Notification -->
+<div class="notification" id="notification">
+    Product added to cart!
+</div>
+
+<script src="productCard.js"></script>
+</body>
+</html>
