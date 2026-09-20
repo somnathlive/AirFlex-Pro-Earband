@@ -36,7 +36,7 @@ The interface features a modern layout, smooth hover animations, interactive pro
 Follow these steps to run the project on your local machine.
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/somnathlive/Product-Card/AirFlex-Pro-Earband.git
+git clone https://github.com/somnathlive/AirFlex-Pro-Earband
 ```
 ### 2. Navigate to the Project Folder
 ```bash
